@@ -1,5 +1,6 @@
 #include<stdio.h>
 /**
+* main - Entry point
 * Description: Print sizes
 * Return: 0
 */

@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - entary point
- * return: 0
+ * Return: 0
  */
 int main(void)
 {

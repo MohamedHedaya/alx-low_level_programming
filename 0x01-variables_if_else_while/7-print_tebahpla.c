@@ -10,6 +10,6 @@ for (i = 122; i >= 97; i--)
 {
 putchar(i);
 }
-putcahr('\n');
+putchar('\n');
 return (0);
 }

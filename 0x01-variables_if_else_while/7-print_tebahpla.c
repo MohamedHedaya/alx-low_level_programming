@@ -1,0 +1,15 @@
+#include <stdio.h>
+/**
+ * main - entary point
+ * Return: 0
+ */
+int main(void)
+{
+int i;
+for (i = 122; i >= 97; i--)
+{
+putchar(i);
+}
+putcahr('\n');
+return (0);
+}

@@ -18,7 +18,7 @@ _putchar(48);
 else
 {
 _putchar(',');
-if (res > 9)
+if (res < 10)
 _putchar(' ');
 _putchar(' ');
 if (res > 9)

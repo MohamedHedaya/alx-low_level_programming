@@ -21,6 +21,7 @@ _putchar(',');
 if (res > 9)
 _putchar(' ');
 _putchar(' ');
+if (res > 9)
 _putchar((res / 10) + 48);
 _putchar((res % 10) + 48);
 }

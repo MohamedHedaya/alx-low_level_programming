@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * isupper - main func
  * @c: input

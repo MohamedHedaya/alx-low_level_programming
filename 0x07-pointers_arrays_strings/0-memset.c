@@ -4,6 +4,7 @@
  * @s: buffer
  * @b: byte
  * @n: count
+ * Return: char
  */
 char *_memset(char *s, char b, unsigned int n)
 {

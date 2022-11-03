@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts_recursion - main func
+ * _puts_recursion - main func
  * @s: input
  * Return: void
  */

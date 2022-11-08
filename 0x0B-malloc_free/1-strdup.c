@@ -19,7 +19,10 @@ char *_strdup(char *str)
 	}
 	if (size == 0)
 		return (NULL);
-	cop = malloc(sizeof (char) * size);
+	cop = malloc(sizeof(char) * size);
+
+	if (cop == NULL)
+		return (NULL);
 	while (i < size)
 	{
 		cop[i] = str[i];

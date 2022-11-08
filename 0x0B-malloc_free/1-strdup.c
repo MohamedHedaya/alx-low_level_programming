@@ -1,3 +1,4 @@
+
 #include "main.h"
 #include <stdlib.h>
 /**
@@ -16,8 +17,7 @@ char *_strdup(char *str)
 	{
 		size++;
 	}
-	
-	cop = malloc(sizeof(char) * size);
+	cop = malloc(sizeof(char) * (size + 1));
 
 	if (cop == NULL)
 		return (NULL);
@@ -26,5 +26,6 @@ char *_strdup(char *str)
 		cop[i] = str[i];
 		i++;
 	}
+	cop[size + 1] = '\0';
 	return (cop);
 }

@@ -1,4 +1,3 @@
-
 #include "main.h"
 #include <stdlib.h>
 /**
@@ -13,12 +12,11 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
-	while (str[size])
+	while (str[size] != '\0')
 	{
 		size++;
 	}
-	if (size == 0)
-		return (NULL);
+	
 	cop = malloc(sizeof(char) * size);
 
 	if (cop == NULL)

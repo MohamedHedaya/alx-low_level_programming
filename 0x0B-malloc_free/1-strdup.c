@@ -1,3 +1,4 @@
+
 #include "main.h"
 #include <stdlib.h>
 /**
@@ -9,7 +10,7 @@ char *_strdup(char *str)
 {
 	unsigned int size = 0, i = 0;
 	char *cop;
-	while (str[size] != '\0')
+	while (str[size])
 	{
 		size++;
 	}

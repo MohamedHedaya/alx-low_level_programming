@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * main - main func
- * @argc: count
- * @argv: array
- * Return: int
+ * main - prints opcode of own main function
+ * @argc: argument count
+ * @argv: array of arguments
+ * Return: 1 or 2 on fail, 0 on success
  */
 int main(int argc, char *argv[])
 {
